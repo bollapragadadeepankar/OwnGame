@@ -1,4 +1,4 @@
-var ground,groundimg,invisibleground;
+var invisibleground
 var player,playerimg,playerdead;
 var backgroundimg;
 var obstacle,obstaclesGroup;
@@ -13,7 +13,7 @@ var lifes=3;
 localStorage["Highscore"]=0
 
 function preload(){
-groundimg = loadImage("images/ground.png");
+//groundimg = loadImage("images/ground.png");
 playerimg = loadAnimation("images/walk1.png","images/walk2.png","images/walk3.png");
 playerdead = loadAnimation("images/dead.png");
 backgroundimg = loadImage("images/day.jpg");
